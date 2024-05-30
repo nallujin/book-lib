@@ -5,13 +5,13 @@ function Book(title, author, pages, read) {
     this.read = read;
 }
 const myLibrary = [
-    new Book("The Hobbit", "J.R.R. Tolkien", 295, false),
-    new Book("The Subtle Art of Not Giving a F*ck", "Mark Manson", 272, true),
-    new Book("The Hunger Games", "Suzanne Collins", 374, false),
-    new Book("Harry Potter and the Philosopher’s Stone", "Suzanne Collins", 374, false),
-    new Book("Twilight", "Stephanie Meyer", 498, false),
-    new Book("To Kill a Mockingbird", "Harper Lee", 281, false),
-    new Book("The Great Gatsby", "F. Scott Fitzgerald", 180, false)
+    new Book("The Hobbit", "J.R.R. Tolkien", 295, "not read yet"),
+    new Book("The Subtle Art of Not Giving a F*ck", "Mark Manson", 272, "read"),
+    new Book("The Hunger Games", "Suzanne Collins", 374, "not read yet"),
+    new Book("Harry Potter and the Philosopher’s Stone", "Suzanne Collins", 374, "not read yet"),
+    new Book("Twilight", "Stephanie Meyer", 498, "not read yet"),
+    new Book("To Kill a Mockingbird", "Harper Lee", 281, "not read yet"),
+    new Book("The Great Gatsby", "F. Scott Fitzgerald", 180, "not read yet")
 
 ]
 
