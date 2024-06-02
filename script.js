@@ -12,8 +12,7 @@ const myLibrary = [
     new Book("Twilight", "Stephanie Meyer", 498, "not read yet"),
     new Book("To Kill a Mockingbird", "Harper Lee", 281, "not read yet"),
     new Book("The Great Gatsby", "F. Scott Fitzgerald", 180, "not read yet")
-
-]
+];
 
 function addBookToLibrary() {
     // do stuff here
