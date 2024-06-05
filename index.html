@@ -10,30 +10,47 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+<dialog id="modal">
+  <button class="close-btn" id="close-modal">&times;</button>
+  <h2>Add a Book</h2>
+  <form action="">
+    <label for="book-name">Name:</label>
+    <input type="text" id="book-name" required />
+    <label for="book-author">Author:</label>
+    <input type="text" id="book-author" required />
+    <label for="pages">Pages:</label>
+    <input type="text" id="pages" required />
+    <div>
+      <input type="checkbox" id="read"/>
+      <label for="read">Have you read it?</label>
+    </div>
+    <input id="add-book" type="submit" value="Add Book" />
+  </form>
+</dialog>
 <h2>Simple Library</h2>
   <div class="card-container">
-    <button class="card">+</button>
-    <div class="card">
-      <button class="del-btn">DEL</button>
-      <p>Title 1</p>
-      <p>Author 1</p>
-      <p>Pages: 123</p>
-      <button class="read-btn">READ</button>
-    </div>
-    <div class="card">
-      <button class="del-btn">DEL</button>
-      <p>Title 2</p>
-      <p>Author 2</p>
-      <p>Pages: 456</p>
-      <button class="read-btn">READ</button>
-    </div>
-    <div class="card">
-      <button class="del-btn">DEL</button>
-      <p>Title 3</p>
-      <p>Author 3</p>
-      <p>Pages: 789</p>
-      <button class="read-btn">READ</button>
-    </div>
+    <button class="card" id="open-modal">+</button>
+<!--    <div class="card">-->
+<!--      <button class="del-btn">DEL</button>-->
+<!--      <p>Title 1</p>-->
+<!--      <p>Author 1</p>-->
+<!--      <p>Pages: 123</p>-->
+<!--      <button class="read-btn">READ</button>-->
+<!--    </div>-->
+<!--    <div class="card">-->
+<!--      <button class="del-btn">DEL</button>-->
+<!--      <p>Title 2</p>-->
+<!--      <p>Author 2</p>-->
+<!--      <p>Pages: 456</p>-->
+<!--      <button class="read-btn">READ</button>-->
+<!--    </div>-->
+<!--    <div class="card">-->
+<!--      <button class="del-btn">DEL</button>-->
+<!--      <p>Title 3</p>-->
+<!--      <p>Author 3</p>-->
+<!--      <p>Pages: 789</p>-->
+<!--      <button class="read-btn">READ</button>-->
+<!--    </div>-->
   </div>
 </body>
 </html>
